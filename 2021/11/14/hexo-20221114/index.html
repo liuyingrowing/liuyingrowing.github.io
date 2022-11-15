@@ -105,7 +105,11 @@
   </div>
   <div class="post-content">
     <article>
-      <p>2021-07-09<a href="https://liuyingrowing.github.io/2021/07/09/thinking-20210709-effeciency&form/">笔记软件使用和博客分类标签体系设计</a></p>
+      <ul>
+<li><a target="_blank" rel="noopener" href="https://www.zhihu.com/question/381352550/answer/2667897289">markdown编辑器测评</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.zhihu.com/question/337669216/answer/2759403585">图床使用思路</a></li>
+</ul>
+<p>2021-07-09<a href="https://liuyingrowing.github.io/2021/07/09/thinking-20210709-effeciency&form/">笔记软件使用和博客分类标签体系设计</a></p>
 <h1 id="建博初衷"><a href="#建博初衷" class="headerlink" title="建博初衷"></a>建博初衷</h1><p><strong>表达自由</strong></p>
 <p>作为遵纪守法的好公民，混迹豆瓣知乎公众号平台时，想发的文字无法立即发出修改时也不方便。那种被冷搁一段的心情总是会使人的积极性打些折扣。</p>
 <p><strong>安全备份</strong></p>
@@ -125,11 +129,6 @@
 </li>
 <li><p>周三tech在油管的视频 Hexo教程第六期 命令</p>
 </li>
-<li><p>主题推荐</p>
-<p>next主题</p>
-<p>fluid主题<br>claudia主题 <a target="_blank" rel="noopener" href="https://github.com/Haojen/hexo-theme-Claudia">https://github.com/Haojen/hexo-theme-Claudia</a><br>melody主题 <a target="_blank" rel="noopener" href="https://github.com/Haojen/hexo-theme-Claudia">https://github.com/Haojen/hexo-theme-Claudia</a></p>
-<p>3-hexo主题</p>
-</li>
 </ul>
 <h2 id="1-命令与配置"><a href="#1-命令与配置" class="headerlink" title="1.命令与配置"></a>1.命令与配置</h2><h3 id="hexo常用命令"><a href="#hexo常用命令" class="headerlink" title="hexo常用命令"></a>hexo常用命令</h3><p>在根目录下<br>hexo s 启动本地服务<br>hexo d 部署到github服务仓<br>hexo new “博客名字用英语后面再改” 默认post格式在source&#x2F;posts目录<br>hexo new draft “博客名字用英语后面再改” 在source&#x2F;drafts目录<br>hexo new page   纯页面</p>
 <p>换主题时，hexo clean清本地缓存 再执行 hexo d -g生成网页<br>浏览器清除缓存，刷新页面即可生效</p>
@@ -147,15 +146,6 @@
 <p>小白先不搞了</p>
 <h3 id="加密"><a href="#加密" class="headerlink" title="加密"></a>加密</h3><p><a target="_blank" rel="noopener" href="https://blog.justlovesmile.top/posts/43010.html">Hexo添加博客加密功能 | Justlovesmile’s BLOG</a></p>
 <p>password： xx</p>
-<h2 id="2-图片图床"><a href="#2-图片图床" class="headerlink" title="2.图片图床"></a>2.图片图床</h2><p><strong>法一：</strong></p>
-<p>在Github单独建了个仓库用来装图片，例如头像、博客背景图等</p>
-<p>上传好图片后，右键复制图片链接</p>
-<p><strong>法二：</strong></p>
-<p><a target="_blank" rel="noopener" href="https://blog.csdn.net/wangqingchuan92/article/details/111572372?utm_medium=distribute.pc_relevant.none-task-blog-2~default~baidujs_title~default-0.control">【个人网站搭建】Hexo框架下文章插入图片部署到GitHub Pages显示失败解决方法_麒麒川的博客-CSDN博客</a></p>
-<p>根据网上教程，采用本地同名文件夹的方式，注意此时必须通过hexo生成文件夹和md，图片方能正常显示。</p>
-<p>!   [名字注释]   (文件夹&#x2F;xx.jpg)</p>
-<p>**法三：Onedrive图床 ** pictureshare uwp软件</p>
-<p><a target="_blank" rel="noopener" href="https://wzblog.fun/posts/b036879a/">Img Share: OneDrive 图床? | Wz 的个人小屋 (wzblog.fun)</a></p>
 <h2 id="3-melody主题"><a href="#3-melody主题" class="headerlink" title="3.melody主题"></a>3.melody主题</h2><h3 id="配置melody主题"><a href="#配置melody主题" class="headerlink" title="配置melody主题"></a>配置melody主题</h3><p><a target="_blank" rel="noopener" href="https://molunerfinn.com/hexo-theme-melody-doc/zh-Hans/theme-config.html#%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E8%AF%B4%E6%98%8E">主题配置 | hexo-theme-melody (molunerfinn.com)</a></p>
 <p>.yml配置文件修改分为网站配置文件、主题配置文件</p>
 <p>文件名.yml 用的是YAML 语言，可以用<strong>记事本</strong>打开，基本特点是<u>注意大小写，别tab，只空格对齐。缩进标层级。# 表示注释一整行。</u></p>
@@ -222,11 +212,41 @@
 <pre><code>git config --global core.autocrlf false
 </code></pre>
 <h3 id="备份源代码和历史版本"><a href="#备份源代码和历史版本" class="headerlink" title="备份源代码和历史版本"></a>备份源代码和历史版本</h3><p>参考<a target="_blank" rel="noopener" href="https://blog.csdn.net/qq_40102861/article/details/98873939?utm_medium=distribute.pc_relevant.none-task-blog-2~default~BlogCommendFromMachineLearnPai2~default-4.base&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2~default~BlogCommendFromMachineLearnPai2~default-4.base">这篇文章</a></p>
-<h3 id="hexo默认主页"><a href="#hexo默认主页" class="headerlink" title="hexo默认主页"></a>hexo默认主页</h3><p>首先参考了<a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/138500516">这篇</a>，没成。然后看到了<a target="_blank" rel="noopener" href="https://www.imooc.com/wenda/detail/453526">这个回答</a>，测试了下成功了。<br>我的做法<br>步骤1：在<code>source</code>根目录下创建<code>index.md</code><br>内容标题可以不要</p>
-<hr>
-<p>title: null<br>date: 2021-07-05<br>type: “home”</p>
-<hr>
-<p>步骤2：手动删除<code>node_modules</code>里的<code>hexo-generator-index</code>模块，我用npm没删成功，所以在有备份的前提下暴力删除了<code>node_modules</code>里的<code>hexo-generator-index-pin-top</code>模块<br>步骤3：clean\g\d</p>
+<h2 id="主题配置"><a href="#主题配置" class="headerlink" title="主题配置"></a>主题配置</h2><h3 id="hexo主题获取与推荐"><a href="#hexo主题获取与推荐" class="headerlink" title="hexo主题获取与推荐"></a>hexo主题获取与推荐</h3><p>在哪获取主题</p>
+<ul>
+<li>官方提供的主题推荐：<a target="_blank" rel="noopener" href="https://hexo.io/themes/,%E7%82%B9%E5%90%8D%E5%AD%97%E6%9C%89%E9%A1%B9%E7%9B%AE%E9%93%BE%E6%8E%A5">https://hexo.io/themes/,点名字有项目链接</a></li>
+</ul>
+<p>推荐的几款主题</p>
+<ul>
+<li>next主题</li>
+<li>fluid主题</li>
+<li><a target="_blank" rel="noopener" href="https://github.com/Haojen/hexo-theme-Claudia">claudia主题</a></li>
+<li><a target="_blank" rel="noopener" href="https://github.com/Haojen/hexo-theme-Claudia">melody主题</a></li>
+<li>3-hexo主题</li>
+<li><a target="_blank" rel="noopener" href="https://orange-way.github.io/">https://orange-way.github.io/</a></li>
+</ul>
+<h3 id="maple主题（我在用）"><a href="#maple主题（我在用）" class="headerlink" title="maple主题（我在用）"></a>maple主题（我在用）</h3><p>我目前使用的主题是<code>maple</code>，其优点为能黑白切换、风格极简</p>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://xbmlz.github.io/">demo</a></li>
+<li>我的博客效果<a href="https://liuyingrowing.github.io/">柳不暗的自留地</a></li>
+</ul>
+<p>使用步骤记录：</p>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://github.com/xbmlz/hexo-theme-maple">项目地址</a>，下载压缩包解压，放入blog&gt;themes文件夹（注意这里不难用theme文件夹）</li>
+<li>将文件夹<code>hexo-theme-maple-main</code>改名为<code>maple</code>。</li>
+<li>在<code>主题配置文件</code>里，将语言改为<code>zh-CN</code></li>
+<li>在<code>主题配置文件</code>里，导航栏修改，<code>文 友 我</code>三项</li>
+</ul>
+<h3 id="hexo默认主页修改"><a href="#hexo默认主页修改" class="headerlink" title="hexo默认主页修改"></a>hexo默认主页修改</h3><ul>
+<li>首先参考了<a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/138500516">这篇</a>，没成。</li>
+<li>然后看到了<a target="_blank" rel="noopener" href="https://www.imooc.com/wenda/detail/453526">这个回答</a>，测试成功。</li>
+</ul>
+<p>具体步骤如下：</p>
+<ul>
+<li>在<code>source</code>根目录下创建<code>index.md</code>，内容标题可以不要<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">title: null</span><br><span class="line">date: 2021-07-05 </span><br><span class="line">type: &quot;home&quot;</span><br></pre></td></tr></table></figure></li>
+<li>手动删除<code>node_modules</code>里的<code>hexo-generator-index</code>模块，我用npm没删成功，转而在有备份的前提下暴力删除了<code>node_modules</code>里的<code>hexo-generator-index-pin-top</code>模块</li>
+<li>git命令 clean\g\d三步走</li>
+</ul>
 
     </article>
   </div>
