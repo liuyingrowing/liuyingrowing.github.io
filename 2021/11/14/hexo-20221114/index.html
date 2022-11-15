@@ -106,35 +106,16 @@
   <div class="post-content">
     <article>
       <ul>
+<li>hexo 和github page搭建博客 [参考了](<a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/370635512%EF%BC%89">https://zhuanlan.zhihu.com/p/370635512）</a></li>
+<li>Hexo配置 <a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/configuration"> 参考了 </a></li>
 <li><a target="_blank" rel="noopener" href="https://www.zhihu.com/question/381352550/answer/2667897289">markdown编辑器测评</a></li>
 <li><a target="_blank" rel="noopener" href="https://www.zhihu.com/question/337669216/answer/2759403585">图床使用思路</a></li>
+<li>hexo git常用命令<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">在根目录下，右键`git bash`</span><br><span class="line">`hexo clean`</span><br><span class="line">`hexo g`</span><br><span class="line">`hexo g -d`</span><br><span class="line">hexo s 启动本地服务，与`http://localhost:4000`搭配看效果</span><br><span class="line">hexo d 部署</span><br><span class="line">hexo new &quot;博客名字用英语后面再改&quot; 默认post格式在source/posts目录</span><br><span class="line">hexo new draft &quot;博客名字用英语后面再改&quot; 在source/drafts目录</span><br><span class="line">hexo new page   about</span><br></pre></td></tr></table></figure></li>
+<li>浏览器缓存问题。以edge为例，CTRL h历史记录删除，刷新页面即可生效。替代方案，从幕布里进入链接看效果</li>
 </ul>
-<p>2021-07-09<a href="https://liuyingrowing.github.io/2021/07/09/thinking-20210709-effeciency&form/">笔记软件使用和博客分类标签体系设计</a></p>
-<h1 id="建博初衷"><a href="#建博初衷" class="headerlink" title="建博初衷"></a>建博初衷</h1><p><strong>表达自由</strong></p>
-<p>作为遵纪守法的好公民，混迹豆瓣知乎公众号平台时，想发的文字无法立即发出修改时也不方便。那种被冷搁一段的心情总是会使人的积极性打些折扣。</p>
-<p><strong>安全备份</strong></p>
-<p>本地+github+在线社交平台，不怕不怕啦</p>
-<p><strong>小白可实现</strong></p>
-<p>以前也尝试过建立博客，每次遇到购买域名以及其他麻烦的事项就放弃了。前段时间还尝试了notion但是体验不是很好，大部分笔记都在Onenote。这次的hexo博客对小白确实友好，虽然中间也遇到一些报错和问题，借助搜索引擎最终基本解决了。</p>
-<p><strong>告诫自己</strong></p>
-<p>发上去的是基本不再修改的，输出性的，不怕别人看到的。</p>
-<p>牢记初心，寻求简洁、功能的统一，专注内容</p>
-<p>做自己</p>
-<h1 id="教程"><a href="#教程" class="headerlink" title="教程"></a>教程</h1><ul>
-<li><p>搭建博客教程</p>
-<p><a target="_blank" rel="noopener" href="https://www.cnblogs.com/huanhao/p/hexobase.html">https://www.cnblogs.com/huanhao/p/hexobase.html</a></p>
-</li>
-<li><p>配置hexo</p>
-<p><a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/configuration">配置 | Hexo</a></p>
-</li>
-<li><p>周三tech在油管的视频 Hexo教程第六期 命令</p>
-</li>
-</ul>
-<h2 id="1-命令与配置"><a href="#1-命令与配置" class="headerlink" title="1.命令与配置"></a>1.命令与配置</h2><h3 id="hexo常用命令"><a href="#hexo常用命令" class="headerlink" title="hexo常用命令"></a>hexo常用命令</h3><p>在根目录下<br>hexo s 启动本地服务<br>hexo d 部署到github服务仓<br>hexo new “博客名字用英语后面再改” 默认post格式在source&#x2F;posts目录<br>hexo new draft “博客名字用英语后面再改” 在source&#x2F;drafts目录<br>hexo new page   纯页面</p>
-<p>换主题时，hexo clean清本地缓存 再执行 hexo d -g生成网页<br>浏览器清除缓存，刷新页面即可生效</p>
-<h3 id="报错"><a href="#报错" class="headerlink" title="报错"></a>报错</h3><ul>
+<h1 id="教程"><a href="#教程" class="headerlink" title="教程"></a>教程</h1><h2 id="1-命令与配置"><a href="#1-命令与配置" class="headerlink" title="1.命令与配置"></a>1.命令与配置</h2><h3 id="报错"><a href="#报错" class="headerlink" title="报错"></a>报错</h3><ul>
 <li><p>Branch master set up to track remote branch master from</p>
-<p>删除 .deploy_git 文件夹，然后 hexo clean ,hexo g -d</p>
+<p>删除 .deploy_git 文件夹，然后 hexo clean ,</p>
 </li>
 <li><p><a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/136552969">部署Hexo踩过的坑—node14.0配置hexo - 知乎 (zhihu.com)</a></p>
 </li>
