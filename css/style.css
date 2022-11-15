@@ -1,6 +1,6 @@
 :root {
-  --c-bg: #fff;
-  --c-scrollbar: #eee;
+  --c-bg: #edf4ed;
+  --c-scrollbar: #c0c0c0;
   --c-scrollbar-hover: #bbb;
   --fg: #555;
   --fg-deep: #222;
@@ -12,7 +12,7 @@ html {
 }
 html.dark {
   --c-bg: #050505;
-  --c-scrollbar: #111;
+  --c-scrollbar: #edf4ed;
   --c-scrollbar-hover: #222;
   --fg: #bbb;
   --fg-deep: #ddd;
@@ -26,7 +26,7 @@ body {
   scrollbar-color: var(--c-scrollbar) var(--c-bg);
 }
 ::-webkit-scrollbar {
-  width: 6px;
+  width: 8px;
 }
 ::-webkit-scrollbar:horizontal {
   height: 6px;
@@ -71,7 +71,7 @@ hr {
 .post {
   max-width: 80ch;
   font-size: 1rem;
-  line-height: 1.75;
+  line-height: 1.5;
   margin: auto;
 }
 .post-header {
@@ -104,7 +104,7 @@ hr {
 }
 .post-title {
   color: var(--fg-deeper);
-  font-weight: 800;
+  font-weight: 600;
   font-size: 2.25em;
   margin-top: 0;
   margin-bottom: 0.8888889em;
@@ -188,7 +188,7 @@ hr {
   margin: auto;
 }
 .post-content:last-child {
-  margin-bottom: 0;
+  margin-bottom: 1rem;
 }
 .post-content .fancybox-img {
   border: none;
